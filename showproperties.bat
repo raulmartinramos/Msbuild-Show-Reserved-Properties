@@ -1,0 +1,1 @@
+msbuild listproperties.csproj /t:ListReservedProperties /nologo

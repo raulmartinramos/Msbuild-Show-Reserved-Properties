@@ -31,7 +31,7 @@ msbuild listproperties.csproj /t:ListReservedProperties /nologo
 
 ## Result
 
-### stReservedProperties:
+### ListReservedProperties:
 
 	* Configuration                   : Debug
 	* Platform                        : AnyCPU

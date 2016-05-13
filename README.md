@@ -1,10 +1,15 @@
 # Template to show Reserved properties for msbuild
 
 Platform
+
 MSBuildBinPath
+
 MSBuildExtensionsPath
+
 MSBuildExtensionsPath32
+
 MSBuildExtensionsPath64
+
 MSBuildLastTaskResult
 MSBuildNodeCount
 MSBuildProgramFiles32
@@ -33,18 +38,31 @@ msbuild listproperties.csproj /t:ListReservedProperties /nologo
 
 ListReservedProperties:
   Configuration                   : Debug
+  
   Platform                        : AnyCPU
+  
   MSBuildBinPath                  : C:\Program Files (x86)\MSBuild\12.0\bin
+  
   MSBuildExtensionsPath           : C:\Program Files (x86)\MSBuild
+  
   MSBuildExtensionsPath32         : C:\Program Files (x86)\MSBuild
+  
   MSBuildExtensionsPath64         : C:\Program Files\MSBuild
+  
   MSBuildLastTaskResult           : true
+  
   MSBuildNodeCount                : 1
+  
   MSBuildProgramFiles32           : C:\Program Files (x86)
+  
   MSBuildProjectDefaultTargets    : 
+  
   MSBuildProjectDirectory         : C:\Projects\msbuild\Msbuild-Show-Reserved-Properties
+  
   MSBuildProjectDirectoryNoRoot   : Projects\msbuild\Msbuild-Show-Reserved-Properties
+  
   MSBuildProjectExtension         : .csproj
+  
   MSBuildProjectFile              : listproperties.csproj
   MSBuildProjectFullPath          : C:\Projects\msbuild\Msbuild-Show-Reserved-Properties\listproperties.csproj
   MSBuildProjectName              : listproperties
